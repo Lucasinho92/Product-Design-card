@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(189, 240, 241);
+    height: 300px;
+    margin: 100px auto 200px 200px;
+}
+.children{
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    background-color: cadetblue;
+    padding: 80px;
+    border-radius: 5px;
+    
+    
+}
+.product-img{
+    width: 300;
+    height: 400px;
+    margin-right: 0;
+    position: relative;
+    right: 0;
+    padding: 35px;
+    border-radius: 0 5px 5px 0;
+    
+    
+    
+
+}
+h2{
+    font-size: 25px;
+    color: darkcyan;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+p{
+    color: grey;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart-img{
+    height: 12px;
+    width: 12px;
+    margin-right: 3px;
+}
+h6{
+    position: relative;
+    left: 130px;
+    top: -45px;
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+    background-color: darkcyan;
+    border: none;
+    height: 30px;
+    width: 190px;
+    padding-left: 10px;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.perf-details{
+    width: 200px;
+    height: 387px;
+    position: relative;
+    left: 300px;
+    top: -440px;
+    background-color: white;
+    padding: 10px 20px 5px 40px;
+    margin-left: 0;
+    border-radius: 0 5px 5px 0;
+}
