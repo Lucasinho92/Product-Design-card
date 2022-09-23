@@ -17,17 +17,26 @@ h1{
     font-size: 30px;
 }
 .product-img{
-    width: 300;
-    height: 400px;
+    width: 20rem;
+    height: 30rem;
     margin-right: 0;
-    position: relative;
     right: 0;
-    padding: 35px;
+    padding: 10px;
     border-radius: 0 5px 5px 0;
+    margin-left: 5px;
     
     
     
 
+}
+main{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    min-height: 100vh;
+    background-color: rgb(26, 231, 119);
+    margin: 100px auto;
 }
 h2{
     font-size: 25px;
@@ -68,16 +77,16 @@ button{
     margin: 10px auto;
     font-weight: 900;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
 
 }
-.perf-details{
+
+.perf-detailing{
     width: 200px;
-    height: 387px;
-    position: relative;
-    left: 300px;
-    top: -440px;
+    height: 27.5rem;
     background-color: white;
-    padding: 10px 20px 5px 40px;
-    margin-left: 0;
+    margin-left: 5px;
     border-radius: 0 5px 5px 0;
+    padding: 20px;
+    margin-top: 20px;
 }
